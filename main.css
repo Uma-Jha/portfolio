@@ -1,0 +1,133 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+.container {
+    padding: 80px 120px;
+}
+.space-top {
+  padding-top: 30px;
+}
+.container1 {
+    padding: 130px 120px 40px 120px;
+    margin-top: 20px;
+    background-color: #ffcccc;
+}
+.container1 img {
+  display: block;
+  margin: 0 auto;
+}
+.bottom-padding {
+  padding-bottom: 40px;
+}
+.bottom-padding p{
+  font-size: 18px;
+  text-align: justify;
+}
+.container3 {
+  padding-top: 40px;
+}
+ul.nav.navbar-nav {
+  padding: 16px 2px;
+}
+.nav.navbar-nav {
+  position: relative;
+  left: 50%;
+}
+.nav.navbar-nav>li {
+  right: 50%;
+  font-size: 14px;
+}
+a>img {
+  width: 75%;
+  height: 75%;
+}
+ul{
+  text-align: center;
+  display: inline-block;
+}
+.bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+}
+#skills h3, #projects h3{
+  text-align: center;
+  letter-spacing: 3px;
+  margin-left: 40px;
+  color: #E8E8E8;
+  font-size: 30px;
+}
+#skills h4, #projects h4{
+  text-align: center;
+  letter-spacing: 3px;
+  margin-left: 40px;
+  color: #E8E8E8;
+}
+
+ul{
+  list-style-type: none;
+}
+.color{
+  background-color: #ffcccc;
+  background-attachment: fixed;
+}
+#projects {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#projects h3 {
+  padding-top: 50px;
+}
+#projects a{
+  text-decoration: none;
+  color: #E8E8E8;
+}
+#projects p{
+  text-align: justify;
+}
+
+img.img-circle {
+  width: 200px;
+  height: 200px;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.nav-tabs li a {
+    color: #777;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+#skills h4:hover, #projects a:hover{
+    color: #d5d5d5 !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
